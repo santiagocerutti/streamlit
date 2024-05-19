@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import os
 
-df = pd.read_csv(os.path.join(os.path.dirname(__file__),'data', 'Municipalities_with_topo.csv'))
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'Municipalities_with_topo.csv'))
 
 # Lista de variables
 #vars = df.columns[5:]
