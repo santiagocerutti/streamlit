@@ -8,8 +8,8 @@ df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'Municipalities_with_to
 # Lista de variables
 #vars = df.columns[5:]
 #vars
-#table = df.groupby(by="CVE_ENT")['tri1k_mean'].mean().reset_index()
+table = df.groupby(by="CVE_ENT")['tri1k_mean'].mean().reset_index()
 
 #if st.checkbox('Show dataframe'):
 #df.columns
-st.dataframe(df)
+st.dataframe(table)
